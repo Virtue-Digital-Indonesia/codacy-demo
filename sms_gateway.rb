@@ -1,9 +1,9 @@
 require 'json'
 class SMSGateway
   def initialize
-    @url = ENV["URL"]
-    @username = ENV["USERNAME"]
-    @password = ENV["PASSWORD"]
+    @url = ""
+    @username =  "root"
+    @password = "rootPassword"
     @short_code = ENV["SHORT_CODE"]
     @campaign_id = ENV["CAMPAIGN_ID"]
     @channel = ENV["CHANNEL"]
